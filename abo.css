@@ -1,0 +1,171 @@
+body{
+    background-color: rgb(240,214,230);
+
+}
+.body{
+    margin:0;
+    min-height:100%;
+    font-family: 'Lobster', cursive;
+    background-color: rgb(240,214,230);
+}
+
+.body-background{
+    margin:0;
+    background-color: rgb(240,214,230);
+
+}
+.container{
+    
+    padding:2px;
+    display:block;
+    
+}
+.container-change{
+    display:block;
+    background-position: center;
+    background-size: cover;
+    padding:2px;
+    
+}
+
+
+.dash-icon,.cross-icon{
+    font-size: 40px;
+    margin-bottom:2px;
+    padding-left:4px;
+}
+.dash-icon:hover{
+    cursor: pointer;
+    color:grey;
+    
+}
+.cross-icon:hover{
+    cursor: pointer;
+    color:grey;
+    
+}
+
+.foam{
+
+    display:none;
+     visibility: hidden;
+     
+     
+ 
+ }
+ 
+ .foam-display{
+     display:block;
+     position: relative;
+     margin:0;
+    z-index:0;
+     text-align:center;
+    align-items: center;
+    justify-content: center;
+    visibility: visible;
+    padding:25px;
+    background-color:rgba(240, 240, 240, 0.9);
+ }
+ 
+ div #page{
+     display:block;
+     padding:29px;
+     font-size:50px;
+    
+ }
+ #page:hover{
+    background-color: rgb(226, 200, 216);
+}
+ .foam-display p{
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    margin-top:1px;
+}
+
+ .all{
+     
+     margin-top:30px;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.all-hide{
+    display:none;
+}
+
+a{
+    font-size:50px;
+    padding:3px;
+    color:black;
+    padding:2px;
+
+}
+
+.find-me{
+    font-family:Regular 400 italic;
+    font-size:30px;
+}
+
+.footer{
+    
+    display:flex;
+    padding:2px;
+    padding-top:80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom:20px;
+   
+}
+.footer-hide{
+    display:none;
+    
+}
+.links{
+    display:flex;
+    flex-direction:row;
+    padding:7px;
+}
+
+
+.linkedin{
+    color:rgb(23, 70, 179);
+    padding-right:2px;
+}
+.linkedin:hover{
+    color:rgb(18, 58, 151);
+}
+.mail{
+    color:rgb(255, 255, 255);
+
+    padding-left:10px;
+    margin:0;
+    border:0;
+    
+}
+.mail:hover{
+    color:rgb(245, 240, 240);
+    
+}
+a{
+    text-decoration: none;
+}
+
+.first-line,.second-line{
+    font-size:30px;
+
+}
+span{
+    font-size:50px;
+}
+.third-line{
+    margin-top:40px;
+}
+.third-line,.fourth-line{
+    font-size:20px;
+}

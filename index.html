@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="work.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <title>index</title>
+</head>
+<body>
+    <div class="body">
+    <div class="container">
+           <div class="dash-icon"><i onclick="myFunction(this)" class="fas fa-bars"></i></div>
+          
+
+         <script>
+             function myFunction(x) {
+              x.classList.toggle("fa-times");
+                   }
+         </script>
+       
+           <div class="intro">
+           <p class="Hi"> HI  <span class="txt-type" data-wait="3000" data-words='["THERE!"]'></span></p>
+            
+            <p id="name">DHANUSHRI.R</'p>
+
+            <p id="edu"><i class="fas fa-university"></i> &nbsp;STUDENT @ PRATHYUSHA ENGINEERING COLLEGE</p>
+            <p id="work">I am a creative Frontend developer looking for a postion in 2021 </p>
+            <div class="bottom">
+                SEE MY WORKS
+            <div class="down-icon">
+
+                <i onclick="projfunction(this)" class="fas fa-angle-double-down"></i>
+                <script>
+                    function projfunction(x) {
+                             window.location.href="project.html";
+                          }
+                </script>
+            </div>
+        </div>
+           </div>
+          
+
+       
+</div>
+
+
+
+    <div class="foam">
+        
+           <a href="index.html" id="page" class="home">Home
+            <p style="font-size:20px;padding:2px">fresh start</p>
+           </a>
+           
+           <a href="project.html" id="page" class="project">Project
+            <p style="font-size:20px;padding:2px">Some of my works</p>
+           </a>
+
+           <a href="about.html" id="page" class="about">About
+            <p style="font-size:20px;padding:2px">Me,Myself and I</p>
+           </a>
+        </div>
+
+</div>
+    <script src="app.js"></script>
+</body>
+</html>

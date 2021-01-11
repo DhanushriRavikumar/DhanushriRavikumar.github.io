@@ -1,0 +1,167 @@
+
+body{
+    background-image:url("showcase.jpg");
+    background-position: center;
+    background-size: cover;
+    height:100%;
+
+    
+}
+.body{
+    margin:0;
+}
+.body-background{
+    margin:0;
+   background-image:url("showcase.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    margin:0;
+    padding-top:0px;
+    display:block;
+    
+}
+.container-change{
+    margin:0;
+    padding-top:0px;
+    display:block;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.Hi{
+    font-size: 50px;;
+}
+.dash-icon,.cross-icon{
+    font-size: 40px;
+    padding-top:0px;
+    
+}
+.dash-icon:hover{
+    cursor: pointer;
+    color:grey;
+    
+}
+.cross-icon:hover{
+    cursor: pointer;
+    color:grey;
+    
+}
+span{
+    font-size: 30px;
+}
+.intro{
+    margin-top:10px;
+
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(211, 207, 207, 0.5);
+    
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+.intro-hide{
+    display: none;
+}
+
+h7{
+    margin-top:20px;
+    font-size: 30px;
+    
+}
+.bottom{
+    font-size:30px;
+    font-weight: bold;
+    padding-top:80px;
+
+}
+
+p#name{
+    margin-top:20px;
+    font-size:50px;
+    
+}
+#edu{
+   padding-top:3px;
+}
+p#edu,p#work{
+    font-size: 20px;
+    margin-top:1px;
+    
+}
+
+.foam{
+
+   display:none;
+    visibility: hidden;
+}
+
+
+
+.foam-display{
+    display:block;
+    position: relative;
+    margin-top:0;
+   z-index:0;
+    text-align:center;
+   align-items: center;
+   justify-content: center;
+   visibility: visible;
+   padding:45px;
+   
+   
+   
+}
+
+
+div #page{
+    display:block;
+    
+    padding:20px;
+    
+    padding-right:70px;
+    padding-left:70px;
+    font-size:50px;
+    background-color:rgba(187, 196, 223, 0.9);
+    
+}
+
+#page:hover{
+    background-color: rgba(180, 184, 197, 0.9);
+}
+
+
+
+a{
+    
+    font-size:100px;
+    padding:3px;
+    color:black;
+    text-decoration: none;
+}
+
+
+.down-icon{
+
+    font-size:40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top:10px;
+   margin-top:8px;
+    
+}
+.down-icon:hover{
+    font-size:50px;
+    padding-top:3px;
+    margin-top:3px;
+    cursor: pointer;
+    
+}
+
